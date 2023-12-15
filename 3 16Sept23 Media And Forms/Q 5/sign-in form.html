@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in form</title>
+</head>
+<body>
+    <h1>Sign-In Form</h1>
+
+    <form>
+        
+        <label for="First Name"> First Name : 
+            <input type="text" name="First Name" placeholder="Omkar" id="First Name" required minlength=3 max=20>
+        </label>
+    <br>               
+        <label for="Last Name"> Last Name : 
+            <input type="text" name="Last Name" placeholder="Darekar" id="Last Name"required minlength=3 max=20>
+        </label>
+    <br>
+        <label for="Email ID"> Email ID : 
+            <input type="email" name="Email ID" placeholder="Email ID" id="Email ID"  >
+        </label>
+    <br>
+        <label for="Password"> Password : 
+            <input type="password" name="Password" placeholder="********" id="Password" required>
+        </label>
+    <br> 
+        <label for="Confirm Password"> Confirm Password : 
+            <input type="password" name="Confirm Password" placeholder="********" id="Confirm Password" required>
+        </label>
+    <br>
+        <label for="Age"> Age : 
+            <input type="number" name="Age" placeholder="0" id="Age" required min="0" max="150" required >
+        </label>
+    <br>
+        <label for=""> Gender : 
+            <input type="radio"name="Male" value="Male" id="Male" >
+            <label for="Male">Male</label>
+            <input type="radio" name="Female" value="Female" id="Female" >
+            <label for="Female">Female</label>
+            <input type="radio" name="Other" value="Other" id="Other" >
+            <label for="Other">Other</label>
+        </label>
+    <br>
+        <label for="Date"> Date :
+            <input type="date" id="Date" name="Select Date">
+        </label>
+    <br>
+        <label for="Term"> Term : 
+            <input type="checkbox" name="Term" id="Term" required /> I agree to terms and conditions.
+        </label>
+    <br>
+        <input type="reset"> reset
+        <button>Submit</button>
+
+    </form>
+
+</body>
+</html>
